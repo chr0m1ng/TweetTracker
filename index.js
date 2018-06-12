@@ -3,7 +3,6 @@ const request = require('request');
 const config = require('./config/keys.js');
 const lana = require('./config/telegram-config');
 const followList = require('./config/follow-list');
-
 const client = new Twitter(config);
 
 client.stream('statuses/filter', {follow: followList.followListString}, (stream) => {
