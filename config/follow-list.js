@@ -12,8 +12,8 @@ const followListId = [
     {name : 'GeoSn0w', id : '2393017699'}
 ];
 
-const followListString = followListId.reduce(function(prevVal,currVal,idx){
-    return idx == 0 ? currVal.id : prevVal + ', ' + currVal.id;
+const followListString = followListId.reduce((prevVal,currVal,idx) => {
+    idx == 0 ? currVal.id : prevVal + ', ' + currVal.id;
 }, '');
 
 
