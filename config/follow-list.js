@@ -7,7 +7,6 @@ const followListId = [
     {name : 'Electra Team', id : '1002857338141921281'},
     {name : 'Siguza', id : '149873270'},
     {name : 'qwertyoruiopz', id : '346380319'},
-    {name : 'Gabriel Santos', id : '613174840'},
     {name : 'Pwn20wnd', id : '720957658501640193'},
     {name : 'GeoSn0w', id : '2393017699'}
 ];
