@@ -13,7 +13,7 @@ const followListId = [
 ];
 
 const followListString = followListId.reduce((prevVal,currVal,idx) => {
-    idx == 0 ? currVal.id : prevVal + ', ' + currVal.id;
+    return idx == 0 ? currVal.id : prevVal + ', ' + currVal.id;
 }, '');
 
 
